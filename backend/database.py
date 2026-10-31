@@ -22,8 +22,7 @@ try:
         db = client['campus_complaints']
 except Exception as e:
     logger.error(f"Failed to initialize PyMongo client: {e}")
-    client = MongoClient('mongodb://localhost:27017/campus_complaints', serverSelectionTimeoutMS=5000)
-    db = client['campus_complaints']
+    raise
 
 # Export collections
 users_collection = db['users']
