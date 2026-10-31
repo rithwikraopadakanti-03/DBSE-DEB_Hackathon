@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+*.so
+*.dll
+
+# Virtual environment
+backend/venv/
+backend/.venv/
+venv/
+.venv/
+env/
+ENV/
+
+# Environment variables (keep .env.example, ignore .env)
+backend/.env
+.env
+
+# Node.js
+frontend/node_modules/
+node_modules/
+
+# Vite build output
+frontend/dist/
+dist/
+
+# IDE / OS
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# MongoDB
+*.mongodb
